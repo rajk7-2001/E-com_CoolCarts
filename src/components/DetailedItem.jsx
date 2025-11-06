@@ -1,7 +1,7 @@
 import React from "react" 
 import { useDispatch, useSelector } from "react-redux" 
 import { useState, useEffect } from "react" 
-import { addItem, removeItem } from "../redux/slices/cartSlice" 
+import { addItem, removeItem } from "../redux/slices/CartSlice" 
 import { toast,ToastContainer } from 'react-toastify';
 import { addAmount, deductAmount } from "../redux/slices/AmountSlice" 
 import 'react-toastify/dist/ReactToastify.css';

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { removeItem } from "../redux/slices/cartSlice";
+import { removeItem } from "../redux/slices/CartSlice";
 import removeIcon from "../assets/removeicon.png";
 import addIcon from "../assets/addicon.png";
 import { addAmount, deductAmount } from "../redux/slices/AmountSlice";
